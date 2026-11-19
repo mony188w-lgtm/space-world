@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اكتشف عالم الفضاء</title>
+
+<style>
+* {
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #080d24;
+color: white;
+text-align: center;
+}
+
+header {
+padding: 65px 15px;
+background: linear-gradient(135deg,#171b49,#70449b);
+}
+
+header h1 {
+font-size: 38px;
+color: #f1d9ff;
+}
+
+header p {
+font-size: 18px;
+line-height: 1.8;
+}
+
+button {
+background: #a77bd0;
+color: white;
+border: none;
+padding: 13px 28px;
+border-radius: 25px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+nav {
+background: #171b49;
+padding: 18px 5px;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+font-size: 14px;
+}
+
+section {
+padding: 40px 15px;
+}
+
+h2 {
+color: #d9b8ff;
+font-size: 27px;
+}
+
+.intro {
+max-width: 650px;
+margin: auto;
+line-height: 2;
+}
+
+.main-image {
+width: 90%;
+max-width: 650px;
+border-radius: 20px;
+margin-top: 25px;
+}
+
+.card {
+background: #171d3c;
+max-width: 450px;
+margin: 22px auto;
+padding: 20px;
+border-radius: 18px;
+box-shadow: 0 5px 20px #0005;
+}
+
+.card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 13px;
+}
+
+.card h3 {
+color: #e1c7ff;
+font-size: 22px;
+}
+
+.card p {
+line-height: 1.9;
+}
+
+.facts {
+background: #22264f;
+max-width: 600px;
+margin: auto;
+padding: 25px;
+border-radius: 18px;
+line-height: 2.5;
+}
+
+footer {
+background: #171b49;
+padding: 30px 10px;
+line-height: 2;
+}
+
+a {
+scroll-margin-top: 65px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>اكتشف عالم الفضاء</h1>
+<p>رحلة ممتعة بين الكواكب والنجوم والمجرات</p>
+<a href="#about">
+<button>ابدأ رحلتك</button>
+</a>
+</header>
+
+<nav>
+<a href="#about">الرئيسية</a>
+<a href="#planets">الكواكب</a>
+<a href="#facts">هل تعلم؟</a>
+<a href="#end">الخاتمة</a>
+</nav>
+
+<section id="about">
+<h2>مرحباً بك في عالم الفضاء</h2>
+<p class="intro">
+الفضاء عالم واسع ومذهل مليء بالأسرار
+ويضم النجوم والكواكب والمجرات
+ويعد من أعظم عجائب الكون التي يسعى الإنسان لاكتشافها
+</p>
+
+<img class="main-image"
+src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=900"
+alt="مجرة في الفضاء">
+</section>
+
+<section id="planets">
+<h2>تعرف على كواكب المجموعة الشمسية</h2>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=700" alt="عطارد">
+<h3>كوكب عطارد</h3>
+<p>أقرب الكواكب إلى الشمس وأصغر كواكب المجموعة الشمسية.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=700" alt="الأرض">
+<h3>كوكب الأرض</h3>
+<p>كوكبنا الجميل الذي نعيش عليه ويتميز بوجود الماء والحياة.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=700" alt="المريخ">
+<h3>كوكب المريخ</h3>
+<p>يعرف بالكوكب الأحمر بسبب لون سطحه المائل إلى الأحمر.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1630839437035-dac17da580d0?w=700" alt="المشتري">
+<h3>كوكب المشتري</h3>
+<p>أكبر كواكب المجموعة الشمسية ويتميز بعواصفه الضخمة.</p>
+</div>
+</section>
+
+<section id="facts">
+<h2>هل تعلم؟</h2>
+<div class="facts">
+<p>الشمس نجم وليست كوكباً.</p>
+<p>الأرض هي الكوكب الثالث من الشمس.</p>
+<p>القمر هو التابع الطبيعي للأرض.</p>
+<p>توجد مليارات المجرات في الكون.</p>
+</div>
+</section>
+
+<section id="end">
+<h2>رحلتنا إلى الفضاء</h2>
+<p class="intro">
+إن استكشاف الفضاء يساعدنا على فهم الكون
+ويكشف لنا الكثير من أسراره
+فكلما تعلمنا أكثر اكتشفنا عظمة هذا الكون واتساعه
+</p>
+</section>
+
+<footer>
+<p>إعداد الطالبة: وسن عبدالعزيز المليحان</p>
+<p>مشروع لغة HTML</p>
+<p>شكراً لزيارتكم</p>
+</footer>
+
+</body>
+</html>
